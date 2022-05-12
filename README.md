@@ -7,4 +7,6 @@ Needs a larger heap space for test case #5. Use
 to increase the heap space. 
 
 This command currently allots 2 gb of heap. The upper limit depends on your operating system. x64 allows more space than 32-bit systems.   
+Even with a larger heap the program may run for a while on test case #5 before solving the puzzle. 
 
+The heuristic function used by the program is not optimal enough to solve the test case #6.
